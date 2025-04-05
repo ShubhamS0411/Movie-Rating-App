@@ -23,6 +23,9 @@ An interactive and responsive web application where users can browse popular mov
 
 ---
 
+<img width="1280" alt="Screenshot 2025-04-06 at 3 50 24 AM" src="https://github.com/user-attachments/assets/8c6b3e26-9ee8-4983-a952-59afce4b0fb8" />
+<img width="1280" alt="Screenshot 2025-04-06 at 3 50 38 AM" src="https://github.com/user-attachments/assets/214985a4-b035-428b-8f34-a260ff139bbf" />
+
 
 
 ## 🧠 How It Works
