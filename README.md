@@ -1,54 +1,49 @@
-# React + TypeScript + Vite
+# 🎬 Movie Rating App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive and responsive web application where users can browse popular movies and rate them using a star-based system. Built using React.js, TypeScript, and styled with modern responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 Search & explore trending movies
+- ⭐ Rate movies using intuitive star-based input
+- 🎨 Responsive & modern UI design
+- ⚛️ Smooth UI interactions with reusable React components
+- ⚡ Fast loading experience with optimized code structure
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **Framework:** React.js with Vite
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Icons:** React Icons
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+
+
+## 🧠 How It Works
+
+- The app initializes with a list of movies (static/mock data for now)
+- Each movie card contains:
+1. Title
+2. Description
+3. Rating component with interactive stars
+- Users can hover/select the number of stars to rate a movie
+
+## ✨ Future Improvements
+
+- 🔗 Fetch data dynamically from an API (e.g., TMDB or OMDb)
+- 🧠 Store user ratings using localStorage or a backend
+- 🔐 Add authentication so users can save/view ratings
+- 🎭 Add filtering by genre or rating range
+
+## 🙌 Contributing
+
+Contributions are welcome! Feel free to fork the project and submit a PR:
+- git checkout -b feature/new-feature
+- git commit -m "Add some feature"
+- git push origin feature/new-feature
